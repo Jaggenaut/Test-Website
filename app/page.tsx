@@ -1,9 +1,17 @@
-import Image from 'next/image'
+import React from 'react'
+import Navbar from './components/navbar'
+import { Poppins } from 'next/font/google'
+ 
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className={poppins.className}>
+      <Navbar/>
     </main>
   )
 }
