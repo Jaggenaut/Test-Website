@@ -1,0 +1,20 @@
+.cardbox{
+    min-width: 350px;
+    padding: 30px;
+    height: 250px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+}
+.cardheading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardtext{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.cardhead{
+    font-size: 45px;
+}

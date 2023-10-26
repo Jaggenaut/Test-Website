@@ -1,0 +1,28 @@
+.smallheading{
+    font-size: 20px;
+}
+.containerbox{
+    width: 95%;
+    max-width: 1400px;
+    align-items: flex-start;
+    padding: 70px;
+}
+.largeheading{
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+.cardscontainer{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px;
+    align-items: flex-start;
+    overflow: scroll;
+}
+.scroll{
+    width: 20%;
+    height: 600px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,30 @@
+.emotionbox{
+    width: 100%;
+    max-width: 1400px;
+    align-items: flex-start;
+    padding: 20px 70px;
+}
+.emotionheading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.gridforcards{
+    height: 350px;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+.gridslider{
+    width: 100%;
+    overflow: scroll;
+    height: fit-content;
+    padding: 0 50px;
+}
+.gridslider::-webkit-scrollbar {
+    display: none;
+}
+.gridslider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

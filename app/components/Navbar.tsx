@@ -4,15 +4,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../assets/logo.png'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div className={`${styles.navbox} flex`}>
-      <div className={`${styles.navinnerbox} flex`}>
+      <div className={`${styles.navinnerbox} flex row`}>
         <div className={styles.logo}>
             <Image src={logo} alt='logo' className='logo' width={100}
       height={100}/>
         </div>
-        <div className={`${styles.navoptions} flex`}>
+        <div className={`${styles.navoptions} flex row`}>
             <Link href='#'>Emotions</Link>
             <Link href='#'>Menifesto</Link>
             <Link href='#'>Self-awarness Test</Link>
@@ -20,8 +19,7 @@ const navbar = () => {
         </div>
         <Link href='#' className='button flex'>Download app</Link>
       </div>
-    </div>
   )
 }
 
-export default navbar
+export default Navbar
