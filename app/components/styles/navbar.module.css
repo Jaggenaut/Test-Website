@@ -1,13 +1,10 @@
-.navbox{
-    height: 130px;
-    padding: 15px;
-}
 .navinnerbox{
     max-width: 1300px;
     justify-content: space-between;
     width: 100%;
     height: 100%;
     font-size: 18px;
+    height: 130px;
 }
 .navoptions{
     justify-content: space-around;

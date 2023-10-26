@@ -1,0 +1,27 @@
+.heroinnerbox{
+    width: 95%;
+    max-width: 1400px;
+    height: fit-content;
+    min-height: 700px;
+    background-color: rgba(238,235,254,255);
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 70px;
+}
+.herobox{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.textcontainer{
+    align-items: flex-start;
+    max-width: 550px;
+    width: 100%;
+}
+.aheadapp{
+    font-size: 20px;
+}
+.heading{
+    font-size: 4rem;
+    font-weight: 1000;
+}

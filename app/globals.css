@@ -27,6 +27,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.juststart{
+  justify-content: flex-start;
+}
+.alstart{
+  align-items: flex-start;
+}
+.col {
+  flex-direction: column;
+}
+.row {
   flex-direction: row;
 }
 .button{

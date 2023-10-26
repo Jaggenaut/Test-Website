@@ -1,0 +1,30 @@
+.menifestobox{
+    min-height: 700px;
+    width: 95%;
+    max-width: 1400px;
+    background-color: rgba(254,247,241,255);
+    margin: 70px 0;
+    border-radius: 30px;
+    align-items: flex-start;
+    padding: 70px;
+}
+.buildreason, .contenttext{
+    font-size: 20px;
+    max-width: 400px;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.content{
+    justify-content: space-around;
+    width: 100%;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+}
+.contentbox{
+    height: 200px;
+    justify-content: space-around;
+}
