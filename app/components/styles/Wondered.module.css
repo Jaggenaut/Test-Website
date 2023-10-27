@@ -1,0 +1,93 @@
+.dotted{
+    border-top:dashed rgb(241, 225, 197);
+    border-top-width: 4px;
+    width: 65% ;
+    position: relative;
+    top: 20px;
+}
+.greyline{
+    width: 90%;
+    border-top:solid rgba(219,219,226,255);
+    border-top-width: 3px;
+    position: relative;
+    top: 50px;
+}
+.line{
+    width: 90%;
+}
+.wonderedbox{
+    width: 95%;
+    max-width: 1400px;
+    min-height: 700px;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: rgba(237,248,254,255);
+    border-radius: 30px;
+    margin: 20px 0;
+}
+.text{
+    font-size: 1.2rem;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.content{
+    font-size: 12px;
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+.list{
+    width: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 120px;
+}
+.listitem{
+    justify-content:space-between ;
+    min-width: 300px;
+    z-index: 1;
+}
+.slider{
+    min-height: 200px;
+    width: 90%;
+}
+.whiteback{
+    width: 60%;
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
+}
+.divcont{
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+}
+.stdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.revdiv{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100%;
+}
+.contentdiv{
+    padding: 3px 15px;
+    border-radius: 5px;
+    height: 30px;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.count{
+    position: relative;
+    bottom: 30px;
+}
