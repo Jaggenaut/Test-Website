@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
       <div className={`${styles.navinnerbox} flex row`}>
         <div className={styles.logo}>
-            <Image src={logo} alt='logo' className='logo' width={100}
+            <Image src={logo} alt='logo' className='logo' width={200}
       height={100}/>
         </div>
         <div className={`${styles.navoptions} flex row`}>

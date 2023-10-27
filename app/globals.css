@@ -21,7 +21,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   padding: 4px;
-  font-family: 'Poppins', sans-serif;
 }
 .flex{
   display: flex;
@@ -48,4 +47,14 @@ body {
   background-color: black;
   color: white;
   font-weight: bold;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: white; 
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100,65,243,255); 
+  border-radius: 10px;
 }
