@@ -1,0 +1,15 @@
+.Aheadcardbox{
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Aheadcardheading{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.Aheadcardtext{
+    font-size: 14px;
+}
