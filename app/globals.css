@@ -58,3 +58,6 @@ body {
   background: rgba(100,65,243,255); 
   border-radius: 10px;
 }
+.baseline{
+  align-items: baseline;
+}
