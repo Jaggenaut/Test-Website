@@ -9,6 +9,8 @@ import BeBest from './components/BeBest'
 import Wondered from './components/Wondered'
 import Privacy from './components/Privacy'
 import WorkwithUs from './components/WorkwithUs'
+import Open from './components/Open'
+import Footer from './components/Footer'
  
 
 
@@ -26,6 +28,9 @@ export default function Home() {
       <Wondered/>
       <Privacy/>
       <WorkwithUs/>
+      <Open/>
+      <hr/>
+      <Footer/>
     </main>
   )
 }

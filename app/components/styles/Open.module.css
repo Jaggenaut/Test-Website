@@ -1,0 +1,20 @@
+.openheading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.openbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 95%;
+    max-width: 1400px;
+    padding: 70px;
+}
+.cardcont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
