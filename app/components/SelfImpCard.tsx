@@ -14,10 +14,16 @@ interface Props {
 const Card: React.FC<Props> = ({ SelfProps }) => {
 
     return (
+        <>
             <div className={styles.card}>
+                <div className={styles.circlebox}>
+                <div className={styles.circle}></div></div>
+                <div className={`${styles.box} flex col`}>
                 <div className={styles.heading}>{SelfProps.heading}</div>
                 <div className={styles.text}>{SelfProps.text}</div>
+                </div>
             </div>
+        </>
     );
 };
 

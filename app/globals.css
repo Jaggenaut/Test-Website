@@ -61,3 +61,7 @@ body {
 .baseline{
   align-items: baseline;
 }
+.footerline{
+  border-top: solid 3px rgba(219,219,226,255);
+  width: 80%;
+}

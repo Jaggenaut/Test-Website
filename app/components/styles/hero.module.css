@@ -25,3 +25,63 @@
     font-size: 4rem;
     font-weight: 900;
 }
+.animations{
+    min-width: 600px;
+}
+.backoutercircle{
+    width: 600px;
+    height: 600px;
+    border: dashed rgb(185, 185, 185) 2px;
+    border-radius: 50%;
+    position: relative;
+}
+.backcircle{
+    height: 400px;
+    width: 400px;
+    background-color: #ddd6f8;
+    border-radius: 50%;
+}
+.phonecont{
+    display: flex;
+    align-items: center;
+}
+.purpleslug{
+    position: absolute;
+    left: 75px;
+    top: 470px;
+    scale: 1.2;
+}
+.smpurpleslug{
+    position: absolute;
+    left: -38px;
+    rotate: 175deg;
+    top: 250px;
+    scale: 0.3;
+}
+.blueslug{
+    position: absolute;
+    top: 5px;
+    left: 115px;
+    scale: 1.2;
+}
+.smblueslug{
+    position: absolute;
+    scale: 0.4;
+    top: 15px;
+    right: 90px;
+    rotate: -30deg;
+}
+.redslug{
+    scale: 1.2;
+    position: absolute;
+    right: -25px;
+    top: 240px;
+}
+.smredslug{
+    color: transparent;
+    position: absolute;
+    scale: 0.4;
+    bottom: 15px;
+    right: 110px;
+    rotate: 40deg
+}

@@ -7,6 +7,7 @@
 .emotionheading{
     font-size: 3rem;
     font-weight: bold;
+    padding-right: 30px;
 }
 .gridforcards{
     height: 350px;
@@ -27,4 +28,8 @@
 .gridslider {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+.slimehead{
+    scale: 1.2;
+    rotate: -30deg;
 }

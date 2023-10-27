@@ -7,6 +7,7 @@
     border-radius: 30px;
     align-items: flex-start;
     padding: 70px;
+    overflow: hidden;
 }
 .buildreason, .contenttext{
     font-size: 20px;
@@ -23,8 +24,44 @@
 .logo{
     height: 300px;
     width: 300px;
+    position: relative;
+    padding-top: 50px;
 }
 .contentbox{
     height: 200px;
     justify-content: space-around;
+}
+.cirlce{
+    position: absolute;
+    bottom: -100px;
+    left: -270px;
+}
+.whitecircle{
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: solid 15px rgba(246,246,246,255);
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+.slug{
+    z-index: 1;
+}
+.tag{
+    position: absolute;
+    width: 40px;
+    top: -25px;
+}
+.rank{
+    position: absolute;
+    width: 60px;
+    top: -23px;
+    z-index: 2;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
