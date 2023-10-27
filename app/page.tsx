@@ -29,7 +29,7 @@ export default function Home() {
       <Privacy/>
       <WorkwithUs/>
       <Open/>
-      <hr/>
+      <hr className='footerline'/>
       <Footer/>
     </main>
   )

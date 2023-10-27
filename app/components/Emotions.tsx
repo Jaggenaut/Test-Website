@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles/Emotions.module.css'
 import Card from './Card'
+import Image from 'next/image'
+import Slug from '../assets/redslug.png'
 
 const Emotions = () => {
    const EmotionsData = [{
@@ -49,8 +51,10 @@ const Emotions = () => {
   return (
     <>
     <div className={`${styles.emotionbox} flex col`}>
+      <div className='flex'>
       <div className={`${styles.emotionheading}`}>Does this sound familier...</div>
-      <div className={`${styles.slimehead}`} ></div>
+      <Image className={`${styles.slimehead}`} src={Slug} alt=''/>
+      </div>
     </div>
     <div className={`${styles.gridslider}`} >
     <div className={`${styles.gridforcards}`}>

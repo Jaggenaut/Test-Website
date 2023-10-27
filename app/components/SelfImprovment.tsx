@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles/SelfImprovement.module.css'
 import SelfImpCard from './SelfImpCard'
+import Image from 'next/image'
+import slug from '../assets/blueslug.png'
 
 const SelfImprovment = () => {
     const dummydata = [{
@@ -41,7 +43,7 @@ const SelfImprovment = () => {
         <div className={styles.smallheading}>Wrong with self-improvement and how we're fixing it.</div>
         <div className='flex'>
             <div className={styles.largeheading}>Self-improvement. Ugh.</div>
-            <div></div>
+            <Image className={styles.slug} src={slug} alt='' />
         </div>
         <div className='flex w-full'>
             <div className={styles.cardscontainer}>

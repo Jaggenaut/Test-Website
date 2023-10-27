@@ -20,6 +20,7 @@
     padding: 50px;
     align-items: flex-start;
     overflow: scroll;
+    gap: 10px;
 }
 .cardscontainer::-webkit-scrollbar {
     display: none;
@@ -27,4 +28,9 @@
 .cardscontainer {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+.slug{
+    rotate: 40deg;
+    margin-left: 40px;
+    scale: 1.2;
 }
