@@ -7,11 +7,13 @@
     border-radius: 30px;
     justify-content: space-between;
     padding: 70px;
+    overflow: hidden;
 }
 .herobox{
     width: 100%;
     height: fit-content;
     padding: 10px;
+    overflow: hidden;
 }
 .textcontainer{
     align-items: flex-start;
@@ -40,6 +42,17 @@
     width: 400px;
     background-color: #ddd6f8;
     border-radius: 50%;
+}
+.animations::before{
+    content: '';
+    background-image: url('../../assets/Group\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
 }
 .phonecont{
     display: flex;
@@ -84,4 +97,7 @@
     bottom: 15px;
     right: 110px;
     rotate: 40deg
+}
+.absolute{
+    position: relative;
 }

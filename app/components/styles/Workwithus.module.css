@@ -8,6 +8,7 @@
     padding: 70px;
     justify-content: space-between;
     gap: 25px;
+    overflow: hidden;
 }
 .headingbox{
     align-items: flex-start;
@@ -63,6 +64,7 @@
 }
 .logo{
     margin: 40px 40px 0 40px;
+    transform-origin: left;
 }
 .cardcont{
     overflow-y: scroll;

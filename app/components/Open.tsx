@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles/Open.module.css'
 import VacancyCard from './VacancyCard'
+import Head from 'next/head'
+import Headingslideleft from '../animations/headingslideleft'
 
 const Open = () => {
     const dummydata = [{
@@ -24,7 +26,9 @@ const Open = () => {
     },]
   return (
     <div className={styles.openbox}>
+        <Headingslideleft>
         <div className={styles.openheading}>Open vacancies</div>
+        </Headingslideleft>
         <div className={styles.cardcont}>
             {dummydata.map((post) =>{
                 return (

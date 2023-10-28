@@ -86,9 +86,11 @@
     width: 20px;
     border-radius: 10px;
     z-index: 1;
+    margin: 15px 0
 }
 .count{
     position: relative;
     bottom: 30px;
     color: white;
+    left: 16px;
 }
