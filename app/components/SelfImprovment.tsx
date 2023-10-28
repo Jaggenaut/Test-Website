@@ -1,8 +1,9 @@
-import React from 'react'
 import styles from './styles/SelfImprovement.module.css'
 import SelfImpCard from './SelfImpCard'
 import Image from 'next/image'
 import slug from '../assets/blueslug.png'
+import Headingslideleft from '../animations/headingslideleft'
+import TranslateXAnimation from '../animations/Slugmotion'
 
 const SelfImprovment = () => {
     const dummydata = [{
@@ -40,10 +41,16 @@ const SelfImprovment = () => {
     }]
   return (
     <div className={`${styles.containerbox} flex col`}>
+        <Headingslideleft>
         <div className={styles.smallheading}>Wrong with self-improvement and how we're fixing it.</div>
+        </Headingslideleft>
         <div className='flex'>
+            <Headingslideleft>
             <div className={styles.largeheading}>Self-improvement. Ugh.</div>
+            </Headingslideleft>
+            <TranslateXAnimation>
             <Image className={styles.slug} src={slug} alt='' />
+            </TranslateXAnimation>
         </div>
         <div className='flex w-full'>
             <div className={styles.cardscontainer}>
